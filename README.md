@@ -34,9 +34,18 @@ This class is the student class that includes the information of single student.
 
 This class is the course record class that includes the information of single course record.
 
+- getCourse `Course`
+    - Will return the reference to the course Class that contains futher information about the course.
+- getEnrolledGradeLevel `int` (9~12)
+    - Will return the grade level that the student took this course in
+- getGradePercent `int` (0~100)
+    - Will return the grade value that the student got in this course
+
+### Course
+
+This class describes the course in the school.
+
 - getCourseID `String`
     - Will return the course ID
-- getStudentGrade `int` (9~12)
-    - Will return the student's grade in the course
-- getCourseGrade `int` (9~12)
-    - Will return the grade that course is taken
+- getMinGradeLevel `int` (9~12)
+    - Will return the minimum grade level required to take the course.
