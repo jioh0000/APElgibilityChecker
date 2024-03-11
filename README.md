@@ -69,3 +69,35 @@ This class describes the course in the school.
 - **satReferenceBest** `boolean`
     - `True`: Look for the best SAT score in the student's record
     - `False`: Look for the latest SAT score in the student's record
+
+---
+
+# Pseudo Code
+```text
+Our method is called
+Get all the students (arraylist)
+Get all the offered AP courses (arraylist)
+
+For student in students
+    Create a 2D array of the student and the arraylist of APCourses
+    Create an arraylist to store eligible courses (eligibleCourse) 
+    
+    Check if the course is AP or not
+    If it is AP, add it to APCourses arraylist
+    
+    For course in APCourses
+      Check student is over the minimum grade level
+      Check student has the minimum GPA
+        
+      Check what test score (max or recent) is required
+      Check if the student has the required test score (total, Math, or EBRW)
+        
+      Get all the prerequsits
+      Check if the student has all the the prerequsits
+      
+      If all the above is true, add the course to the eligibleCourse arraylist
+
+    add checked student and eligible course arraylist to the 2D array
+
+Return the 2D array            
+```
