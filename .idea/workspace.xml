@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/CourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/model/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/model/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EligibilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="&quot;March 13th meeting&quot;" />
     <list id="2fc970f6-7175-4a18-9221-0270f5883696" name="Changes by hyerinshin" comment="" />
     <list id="192d5abb-6551-45a9-9c60-917775ab9ea8" name="Changes by jhchoi25" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EligibilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" afterDir="false" />
     </list>
     <list id="eb454d38-db76-4911-888b-8d1306221679" name="Changes by jopark24" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,16 +55,6 @@
         <option name="url" value="https://github.com/SuhJae/APElgibilityChecker.git" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="3" changelist="ad0d9315-8891-4338-96a1-10cef2796be6" />
-        <range start1="2" end1="3" start2="4" end2="7" changelist="ad0d9315-8891-4338-96a1-10cef2796be6" />
-        <range start1="4" end1="5" start2="8" end2="10" changelist="192d5abb-6551-45a9-9c60-917775ab9ea8" />
-        <range start1="7" end1="7" start2="12" end2="13" changelist="ad0d9315-8891-4338-96a1-10cef2796be6" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -125,12 +104,25 @@
       <workItem from="1710306113623" duration="38000" />
       <workItem from="1710306159504" duration="4000" />
       <workItem from="1710306215058" duration="387000" />
-      <workItem from="1710306611176" duration="2951000" />
+      <workItem from="1710306611176" duration="3133000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;March 13th meeting&quot;">
+      <option name="closed" value="true" />
+      <created>1710310266413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710310266413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;March 13th meeting&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;March 13th meeting&quot;" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
