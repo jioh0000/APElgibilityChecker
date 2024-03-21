@@ -79,11 +79,7 @@ Get all the students (arraylist)
 Get all the offered AP courses (arraylist)
 
 For student in students
-    Create a 2D array of the student and the arraylist of APCourses
     Create an arraylist to store eligible courses (eligibleCourse) 
-    
-    Check if the course is AP or not
-    If it is AP, add it to APCourses arraylist
     
     For course in APCourses
       Check student is over the minimum grade level

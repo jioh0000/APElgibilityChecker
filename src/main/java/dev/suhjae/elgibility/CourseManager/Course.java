@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.model;
+package dev.suhjae.elgibility.CourseManager;
 
 public class Course {
     private String courseID;

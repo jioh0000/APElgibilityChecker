@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.model;
+package dev.suhjae.elgibility.CourseManager;
 
 public class CourseRecord {
     private Course course = new Course("10110A", "AP Computer Science A", 9, true, 3.0, 0, 0, 0, false);
