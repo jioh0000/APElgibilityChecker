@@ -1,7 +1,4 @@
-Student Name,"Current 
-Grade Level","Student 
-Number",Course,Course Number,Grade,GPA Points,Storecode,"Historical
-Grade Level",Combined GPA+ (Grade * 100)+ AP Bounus (.333),Email Reference
+Student Name,"Current Grade Level","Student Number",Course,Course Number,Grade,GPA Points,Storecode,"Historical Grade Level",Combined GPA+ (Grade * 100)+ AP Bounus (.333),Email Reference
 Mei Lin,9,123456,Advisory 9,10700,A,3.66952,S1,9,903.66952,9a27@kis.ac
 Mei Lin,9,123456,Biology,10410,A+,3.95185,S1,9,903.95185,9a27@kis.ac
 Mei Lin,9,123456,Chinese II,10501,C,0.04245,S1,9,900.04245,9a27@kis.ac
