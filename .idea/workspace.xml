@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="&quot;March 13th meeting&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="&quot;March 13th meeting&quot;" />
     <list id="2c811972-9635-4329-ad07-9c6bac3c24f3" name="Changes by hyerinshin" comment="" />
     <list id="0d9249fb-b997-4802-9cec-d670ab3abb58" name="Changes by jhchoi25" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +77,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "Gradle.APElgibilityChecker [:Main.main()].executor": "Run",
     "Kotlin script (Beta).build.gradle.kts.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -107,7 +106,6 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dev.suhjae.elgibility.Main" />
-      <module name="APElgibilityChecker.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dev.suhjae.elgibility.*" />
@@ -123,6 +121,13 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-d89c1816" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
