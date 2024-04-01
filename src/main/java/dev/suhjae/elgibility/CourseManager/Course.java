@@ -1,34 +1,85 @@
 package dev.suhjae.elgibility.CourseManager;
 
 public class Course {
-    private String courseID;
-    private String CourseName;
+    private String courseName;
+    private int courseId;
     private int minGradeLevel;
+    private String referencedTest;
+    private boolean isHighest;
+    private int minPredictorScore;
     private boolean isAP;
-    private double minGpaCutOff;
-    private int satMinMathScore;
-    private int satMinEBRW;
-    private int minSatCutOff;
-    private boolean satReferenceBest;
 
-    public Course(String courseID, String CourseName, int minGradeLevel, boolean isAP, double minGpaCutOff, int satMinMathScore, int satMinEBRW, int minSatCutOff, boolean satReferenceBest) {
-        this.courseID = courseID;
-        this.CourseName = CourseName;
+    private String preReqOne;
+    private String preReqTwo;
+    private String preReqThree;
+    private String preReqFour;
+
+    // AP Classes
+    Course(String courseName, int courseId, int minGradeLevel, String referencedTest, boolean isHighest, int minPredictorScore, String preReqOne, String preReqTwo, String preReqThree, String preReqFour) {
+        this.courseName = courseName;
+        this.courseId = courseId;
         this.minGradeLevel = minGradeLevel;
-        this.isAP = isAP;
-        this.minGpaCutOff = minGpaCutOff;
-        this.satMinMathScore = satMinMathScore;
-        this.satMinEBRW = satMinEBRW;
-        this.minSatCutOff = minSatCutOff;
-        this.satReferenceBest = satReferenceBest;
+        this.referencedTest = referencedTest;
+        this.isHighest = isHighest;
+        this.minPredictorScore = minPredictorScore;
+        this.isAP = true;
+        this.preReqOne = preReqOne;
+        this.preReqTwo = preReqTwo;
+        this.preReqThree = preReqThree;
+        this.preReqFour = preReqFour;
+
+        if (referencedTest == "") {
+            this.isAP = false;
+        }
+
     }
 
-    public String getCourseID() {
-        return courseID;
+    // Non-AP Classes
+    Course(String courseName, int courseId) {
+        this.courseName = courseName;
+        this.courseId = courseId;
+        this.isAP = false;
+    }
+
+    //getMinGpaCutOff double (0~4)
+    //Will return the minimum GPA from this course to be counted as an valid pre-requisite for an AP course.
+//
+//   HashMap<Integer, Double> orPreReq = new HashMap<Integer, Double>();
+//    for(int i = 0; i < preReqOne.length; i++) {
+//        if(preReqOne.charAt(i) == ' ' || i == preReqOne.length() - 1) {
+//            orPreReq.put(Integer.parseInt(preReqOne.substring(i - 10, i - 5)), Double.parseDouble(preReqOne.substring(i - 6, i))); // key == course, value == gpa
+//        }
+//    }
+//    HashMap<Integer, Double> andPreReq = new HashMap<Integer, Double>();
+//    if(preReqTwo.equals(null)) {
+//        andPreReq.put(Integer.parseInt(preReqTwo.substring(0, 5)),Double.parseDouble(preReqTwo.substring(6)));
+//    }
+//    if(preReqThree.equals(null)) {
+//        andPreReq.put(Integer.parseInt(preReqThree.substring(0, 5)),Double.parseDouble(preReqThree.substring(6)));
+//    }
+//    if(preReqFour.equals(null)) {
+//        andPreReq.put(Integer.parseInt(preReqFour.substring(0, 5)),Double.parseDouble(preReqFour.substring(6)));
+//    }
+
+
+//    Map<String, Double> productsByName = new HashMap<>();
+//    public HashMap getPreReq(preReqOne, preReqTwo, preReqThree, preReqFour){
+//        int n = 0;
+//
+//        if (preReqOne == null){
+//            n += 1;
+//        }
+//
+//        if (pre)
+//    }
+
+
+    public int getCourseID() {
+        return courseId;
     }
 
     public String getCourseName() {
-        return CourseName;
+        return courseName;
     }
 
     public int getMinGradeLevel() {
@@ -36,26 +87,44 @@ public class Course {
     }
 
     public boolean isAP() {
-        return isAP;
+        return this.isAP;
     }
 
-    public double getMinGpaCutOff() {
-        return minGpaCutOff;
-    }
-
+    //getSatMinMathScore int
+    //Will return the minimum SAT Math score required to take the course. -1 if there is no requirement.
     public int getSatMinMathScore() {
-        return satMinMathScore;
+        if (referencedTest.equals("Math")) {
+            return minPredictorScore;
+        }
+        return -1;
     }
 
+    //getSatMinEBRW int
+    //Will return the minimum SAT EBRW score required to take the course. -1 if there is no requirement.
     public int getSatMinEBRW() {
-        return satMinEBRW;
+        if (referencedTest.equals("EBRW")) {
+            return minPredictorScore;
+        }
+        return -1;
     }
 
+    //getMinSatCutOff int
+    //Will return the minimum SAT Total score required to take the course. -1 if there is no requirement.
     public int getMinSatCutOff() {
-        return minSatCutOff;
+        if (referencedTest.equals("Total")) { // check later
+            return minPredictorScore;
+        }
+        return -1;
     }
 
+    //satReferenceBest boolean
+    //True: Look for the best SAT score in the student's record
+    //False: Look for the latest SAT score in the student's record
     public boolean satReferenceBest() {
-        return satReferenceBest;
+        return isHighest;
     }
+
+
 }
+
+

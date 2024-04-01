@@ -8,7 +8,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class CoursePanel extends MainPanel{
+public class CoursePanel extends MainPanel {
     public CoursePanel(String[][] data) {
         super(data);
         this.setFocusable(false);
@@ -75,7 +75,7 @@ public class CoursePanel extends MainPanel{
 
             // Example: Update String array with a new value
             String newValue = JOptionPane.showInputDialog("[0][0] new value:");
-            data[0][0]=newValue;
+            data[0][0] = newValue;
             updateTableData();
         }
     }
@@ -91,8 +91,8 @@ public class CoursePanel extends MainPanel{
                 updateTableData();
 
                 for (String[] dat : data) {
-                    for(String d: dat) {
-                        System.out.print(d+" ");
+                    for (String d : dat) {
+                        System.out.print(d + " ");
                     }
                     System.out.println();
                 }

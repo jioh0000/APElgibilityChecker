@@ -9,16 +9,16 @@ public class Main {
         ArrayList<Course> APCourses = dev.suhjae.elgibility.CourseManager.Main.getAllAP();
 
         /**
-        for (Student student : students) {
-            for (Course course : APCourses) {
-                if (student.getGradeLevel() >= course.getMinGradeLevel()) {}
-                if (student.getGPA() >= course.getMinGpaCutOff()) {}
-                if (course.satReferenceBest()) { //Look for the best SAT score in the student's record
-                }
-                else { //Look for the latest SAT score in the student's record
-                }
-            }
-        }
-        /**/
+         for (Student student : students) {
+         for (Course course : APCourses) {
+         if (student.getGradeLevel() >= course.getMinGradeLevel()) {}
+         if (student.getGPA() >= course.getMinGpaCutOff()) {}
+         if (course.satReferenceBest()) { //Look for the best SAT score in the student's record
+         }
+         else { //Look for the latest SAT score in the student's record
+         }
+         }
+         }
+         /**/
     }
 }

@@ -11,7 +11,7 @@ public class MainPanel extends JPanel {
     String[][] data;
     JButton importButton, saveButton;
 
-    public MainPanel(String [][] data) {
+    public MainPanel(String[][] data) {
         this.data = data;
     }
 
@@ -28,7 +28,7 @@ public class MainPanel extends JPanel {
         tableModel.setRowCount(0);
 
         // Populate table with data from the String array
-        for (int i = 1;i<data.length;i++) {
+        for (int i = 1; i < data.length; i++) {
             //tableModel.addRow(new Object[]{d});
             tableModel.addRow(data[i]);
             //System.out.println(d);
