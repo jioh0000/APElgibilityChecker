@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.studentManager;
+package dev.suhjae.elgibility.StudentManager;
 
 public class HistoricalGrade {
   private String courseName;

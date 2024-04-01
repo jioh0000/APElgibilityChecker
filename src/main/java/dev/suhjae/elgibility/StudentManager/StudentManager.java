@@ -1,4 +1,4 @@
-package dev.suhjae.elgibility.studentManager;
+package dev.suhjae.elgibility.StudentManager;
 
 import java.util.ArrayList;
 import java.util.List;

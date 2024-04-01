@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0d9315-8891-4338-96a1-10cef2796be6" name="Changes" comment="&quot;March 13th meeting&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/StudentHistoricGrades.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/StudentHistoricGrades.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/studentManager/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/MainFrame.java" afterDir="false" />
     </list>
     <list id="2c811972-9635-4329-ad07-9c6bac3c24f3" name="Changes by hyerinshin" comment="" />
     <list id="0d9249fb-b997-4802-9cec-d670ab3abb58" name="Changes by jhchoi25" comment="" />
-    <list id="9e02aaa4-269a-4869-a70c-cdd43c8f2d8b" name="Changes by jopark24" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,6 +98,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility" />
       <recent name="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/studentManager" />
       <recent name="$PROJECT_DIR$/src/main/java/dev/suhjae/elgibility/CourseManager" />
@@ -149,7 +146,7 @@
       <workItem from="1710478809558" duration="2961000" />
       <workItem from="1710592522975" duration="62000" />
       <workItem from="1710998009457" duration="4023000" />
-      <workItem from="1711947669698" duration="2084000" />
+      <workItem from="1711947669698" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;March 13th meeting&quot;">
       <option name="closed" value="true" />

@@ -4,7 +4,8 @@ import dev.suhjae.elgibility.CourseManager.CourseManager;
 import dev.suhjae.elgibility.Panels.CoursePanel;
 import dev.suhjae.elgibility.Panels.GradePanel;
 import dev.suhjae.elgibility.Panels.TestPanel;
-import dev.suhjae.elgibility.studentManager.StudentManager;
+import dev.suhjae.elgibility.StudentManager.StudentManager;
+//import dev.suhjae.elgibility.EligibilityManager.EligibilityManager;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,7 +26,7 @@ public class MainFrame extends JFrame {
     //2darraycourses =[][] empty
     static public StudentManager studentManager;
     static public CourseManager courseManager;
-//    static public EligibilityManager eligibilityManager;
+//    static public ElegibilityManager eligibilityManager;
 
     public MainFrame() {
         String testData[][] = {{"Course Name", "Course ID", "Minimum Grade Level to Enroll", "Referenced Test", "Recent or Highest", "Minimum Test Score (SAT)", "Course Requirement #1", "Course Requirement #2", "Course Requirement #3", "Course Requirement #4"},
