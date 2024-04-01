@@ -12,6 +12,7 @@ public class EligibilityManager {
         this.studentManager = sm;
     }
 
+    //Method that runs automatically
     public String[][] Go() {
         return some2Darray;
     }
