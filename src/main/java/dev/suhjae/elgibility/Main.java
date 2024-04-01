@@ -1,8 +1,6 @@
 package dev.suhjae.elgibility;
 
 import java.util.ArrayList;
-import dev.suhjae.elgibility.studentManager.Student;
-import dev.suhjae.elgibility.studentManager.StudentManager;
 
 public class Main {
     public static void main(String[] args) {
