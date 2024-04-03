@@ -12,6 +12,7 @@ public class EligibilityManager {
     StudentManager studentManager;
     ArrayList<Course> apCourses;
     ArrayList<Student> students;
+    ArrayList<Course> eligibleCourses;
 
     private boolean checkCourseElegibility(Student student, Course course) {
         return true;
@@ -29,9 +30,20 @@ public class EligibilityManager {
 
     //Method that runs automatically
     public String[][] Go() {
-        return null;
-    }
+        students = studentManager.studentList;
+        apCourses = courseManager.getAPcourses();
+        String[][] output = new String[students.size()][3];
 
+        for(int i=0; i<students.size(); i++){
+            eligibleCourses.clear();
+            eligibleCourses = getEligibleCourses(students.get(i));
+
+            for (Course eligibleCourse : eligibleCourses) {
+                System.out.println(eligibleCourse.getCourseName());
+            }
+
+        }
+    }
 
 }
 
