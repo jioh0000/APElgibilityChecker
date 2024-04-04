@@ -10,9 +10,11 @@ import java.util.ArrayList;
 public class EligibilityManager {
     CourseManager courseManager;
     StudentManager studentManager;
-    ArrayList<Course> apCourses;
-    ArrayList<Student> students;
-    ArrayList<Course> eligibleCourses;
+    ArrayList<Course> apCourses = new ArrayList<Course>();
+    ArrayList<Student> students = new ArrayList<Student>();
+    ArrayList<Course> eligibleCourses = new ArrayList<Course>();
+    String eligibleCoursesList;
+    String eligibleCoursesIdList;
 
     private boolean checkCourseElegibility(Student student, Course course) {
         return true;
@@ -32,17 +34,25 @@ public class EligibilityManager {
     public String[][] Go() {
         students = studentManager.studentList;
         apCourses = courseManager.getAPcourses();
-        String[][] output = new String[students.size()][3];
+        String[][] output = new String[students.size()][4];
 
         for(int i=0; i<students.size(); i++){
-            eligibleCourses.clear();
+            eligibleCoursesList = "";
+            eligibleCoursesIdList = "";
             eligibleCourses = getEligibleCourses(students.get(i));
 
-            for (Course eligibleCourse : eligibleCourses) {
-                System.out.println(eligibleCourse.getCourseName());
+            for(Course c : eligibleCourses){
+                eligibleCoursesList += (c.getCourseName() + ", ");
+                eligibleCoursesIdList += (c.getCourseID() + ", ");
             }
 
+            output[i][0] = students.get(i).getName();
+            output[i][1] = students.get(i).getID();
+            output[i][2] = eligibleCoursesList.substring(0,eligibleCoursesList.length()-2);
+            output[i][3] = eligibleCoursesIdList.substring(0,eligibleCoursesList.length()-2);
+
         }
+        return output;
     }
 
 }
